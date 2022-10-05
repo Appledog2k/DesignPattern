@@ -3,6 +3,6 @@ public class HalfDiscountStrategy : IPromoteStrategy
 {
     public double DoDiscount(double price)
     {
-        throw new NotImplementedException();
+        return price * 0.5;
     }
 }
